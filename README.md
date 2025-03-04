@@ -25,7 +25,7 @@ pip install pyautogui
 - The script continuously sends the predefined message ("This message is sent by AI") to the contact with random intervals.
 Example Code:
 ```python
-Copy
+# copy
 import pyautogui
 import time
 import random
@@ -62,7 +62,7 @@ ChromeDriver (or the appropriate WebDriver for your browser)
 You can install selenium using:
 
 ``` bash
-Copy
+# copy
 pip install selenium
 ```
 - You also need to install ChromeDriver (or your respective browser's WebDriver):
@@ -77,7 +77,7 @@ It sends the predefined message ("Your Custom Message") to the contact.
 It repeats the process with random delays between messages.
 Example Code:
 ``` python
-Copy
+# copy
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
@@ -124,13 +124,13 @@ send_whatsapp_message()
 - Install Python if not already installed (3.x).
 -Install the required library pyautogui:
 ``` bash
-Copy
+# copy
 pip install pyautogui
 ```
 > Open WhatsApp Desktop on your system.
 > Run the script:
 ``` bash
-Copy
+# copy
 python whatsapp.py
 ```
 - The script will wait for 5 seconds, then start sending the message to the specified contact on WhatsApp Desktop.
@@ -138,14 +138,14 @@ python whatsapp.py
 - Install Python if not already installed (3.x).
 - Install the required library selenium:
 ```bash
-Copy
+# copy
 pip install selenium
 ```
 - Download the appropriate WebDriver for your browser (e.g., ChromeDriver for Chrome) and place it in a folder on your machine. You can download ChromeDriver here: ChromeDriver.
 - Open WhatsApp Web on your browser and scan the QR code using your phone.
 #### Run the script:
 ```bash
-Copy
+# copy
 python web.py
 ``` 
 ### The script will wait for you to scan the QR code, then it will start searching for the contact and send the predefined message.
@@ -157,4 +157,4 @@ python web.py
 ## Conclusion
 This repository provides two different approaches to automate WhatsApp messaging, one using pyautogui for the desktop app and another using Selenium for WhatsApp Web. You can choose whichever suits your needs best.
 
-> Feel free to copy-paste this markdown text directly into your `README.md` file!
+> Feel free to # copy-paste this markdown text directly into your `README.md` file!
